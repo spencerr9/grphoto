@@ -6,12 +6,14 @@ import './NavBar.css';
 import {Icon} from 'antd';
 import Button from 'antd/es/button';
 
+import {Link} from 'react-router-dom';
+
 export default function NavBar(){
     return (
         <div>
             <ul className='nav1'>
                 <a style={{fontSize: '40px'}} href="#"><Icon type="camera" />PICS</a>
-                <a href="#">About</a>
+                <Link to='/about'>About</Link>
                 <a href="#">Portraits</a>
                 <a href="#">Commercial</a>
                 <a href="#">Weddings</a>
