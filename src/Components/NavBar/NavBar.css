@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Ubuntu:400,700&display=swap');
+
+ul {
+    font-family: 'Open Sans'; 
+    margin: 10px 20% 0 20%;
+    /* background:lightgreen;  */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+hr {
+    color: lightgray;
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav1 {
+        display: none;
+        /* justify-content: flex-end; */
+    }
+
+    .nav2 {
+        display: flex;
+        /* justify-content: flex-end; */
+        margin: 0;
+    }
+    .nav2 > div > Button {
+        margin: 15px 0 15px 8px;
+        /* padding: 10px; */
+    }
+}
