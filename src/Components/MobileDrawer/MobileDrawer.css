@@ -1,0 +1,11 @@
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links > button {
+    padding: 0px 27px;
+    margin: -1px -30px;
+    height: 60px;
+    text-align: left
+}
